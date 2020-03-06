@@ -29,7 +29,7 @@ app.use(koaBody({
 
 router.get('/getToken', async (ctx, next) => {
 	ctx.body = 12345678;
- await next();
+	await next();
 });
 
 app.use(router.routes());
