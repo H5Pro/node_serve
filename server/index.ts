@@ -28,8 +28,14 @@ app.use(koaBody({
 }));
 
 router.get('/getToken', async (ctx, next) => {
-	console.log(12345);
-	next();
+	ctx.body = {
+		errno: 0,
+		errmsg: '',
+		data: {
+			token: 12345678,
+		},
+	};
+ await next();
 });
 
 app.use(router.routes());

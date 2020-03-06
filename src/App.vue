@@ -9,7 +9,7 @@ import API from './api';
 @Component
 export default class App extends Vue {
 	private async getToken() {
-		const data = await API.getToken();
+		const {data} = await API.getToken();
 		console.log(data);
 	}
 }
