@@ -7,7 +7,7 @@ import {IResponseDataModal} from './global.d';
 axios.defaults.baseURL = REQ_BASE_URL;
 // 添加响应拦截器
 axios.interceptors.response.use((response) => {
-	if (response.config.url!.indexOf('/dimg') >= 0) {
+	if (response.config.url!.indexOf('/getToken') >= 0) {
 		return {
 			data: response.data,
 			errno: 0,
