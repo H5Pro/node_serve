@@ -34,7 +34,7 @@ router.get('/getToken', async (ctx, next) => {
 
 app.use(router.routes());
 app.use(KoaStatic(path.resolve(__dirname, '../dist')));
-const port = process.env.NODE_ENV === 'development' ? 3000 : 80;
+const port = process.env.NODE_ENV === 'development' ? 3000 : 443;
 app.listen(port);
 
 const endTime = new Date().getTime();
