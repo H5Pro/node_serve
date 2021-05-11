@@ -25,7 +25,7 @@
     "koa-static": "^5.0.0",
     "koa2-cors": "^2.0.6",
     "koa2-proxy-middleware": "0.0.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "request": "^2.88.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
