@@ -48,7 +48,7 @@
     "@vue/cli-plugin-router": "^4.1.0",
     "@vue/cli-plugin-typescript": "^4.1.0",
     "@vue/cli-plugin-vuex": "^4.1.0",
-    "@vue/cli-service": "^4.1.0",
+    "@vue/cli-service": "^5.0.8",
     "lint-staged": "^9.4.3",
     "nodemon": "^2.0.1",
     "sass": "^1.23.7",
